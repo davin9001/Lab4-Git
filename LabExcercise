@@ -1,4 +1,9 @@
 public static void main(String[] args) {
   public Student(String name, int studentID){
+  this.name = name;
+  this.studentID = studentID;
+  }
+  public void displayInfo(Student student){
+  System.out.println("Name: "student.this.name + " ID: " + student.this.studentID)
   }
 }
